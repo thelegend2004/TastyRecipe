@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import MealsScreen from "./screens/MealsScreen";
 import MealDetailsScreen from "./components/MealDetailsScreen";
+import { Button, Text } from "react-native";
 
 const Stack = createNativeStackNavigator();
 

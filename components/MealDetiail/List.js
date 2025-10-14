@@ -2,8 +2,8 @@ import { View, Text, StyleSheet } from "react-native";
 
 export default function List({ data }) {
   return data.map((item) => (
-    <View style={styles.listItem}>
-      <Text style={styles.itemText} key={item}>{item}</Text>
+    <View style={styles.listItem} key={item}>
+      <Text style={styles.itemText}>{item}</Text>
     </View>
   ));
 }
